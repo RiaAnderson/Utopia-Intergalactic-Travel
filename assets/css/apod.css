@@ -1,0 +1,50 @@
+body {
+    background-color: black
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#apod_title {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    left: 150px;
+    top: 265px;
+    padding-left: 40%;
+    text-align: left;
+    padding-right: 10%;
+}
+#apod_explaination {
+    z-index: 100;
+    position: absolute;
+    color: white;
+    font-size: 12px;
+    font-weight: normal;
+    left: 150px;
+    top: 335px;
+    display: block;
+    padding-left: 40%;
+    text-align: left;
+    padding-right: 10%;
+}
+h2 {
+    padding-top: 20px
+}
+h3 {
+    size: 16pt;
+}
+#apod_img_id {
+    margin-left: 16%;
+    padding-top: 40px;
+    width: 70%
+}
+#copyright {
+    font-size: 9pt;
+    font-style: italic;
+    text-align:left;
+}
