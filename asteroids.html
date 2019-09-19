@@ -7,6 +7,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/mars.css">
+    <link rel="stylesheet" href="assets/css/asteroid.css">
     <title>Vacay Mars</title>
     </head>
     <body>
@@ -59,41 +62,26 @@
       </div>
       <div class ="section" style="background-color: black; color: white">
         <div class="sub-section" style="margin: 0px 20px 0px 20px">   
-        <h2>Asteroids Watch</h2>
+        <h2>ASTEROID WATCH</h2>
           <p>
-            THE RED PLANET Mars, named for the Roman god of war, has long been an omen in the night sky. And in its own way, the planet’s rusty red surface tells a story of destruction. Billions of years ago, the fourth planet from the sun could have been mistaken for Earth’s smaller twin, with liquid water on its surface—and maybe even life.
-          </p>
-           <p>Now, the world is a cold, barren desert with few signs of liquid water. But after decades of study using orbiters, landers, and rovers, scientists have revealed Mars as a dynamic, windblown landscape that could—just maybe—harbor microbial life beneath its rusty surface even today.
-          </p>
-          <h3>Longer year and shifting seasons </h3>
-            <p>With a radius of 2,106 miles, Mars is the seventh largest planet in our solar system and about half the diameter of Earth. Its surface gravity is 37.5 percent of Earth’s.
-         </p>
-         <h3><strong>GET set GO,</strong> are you ready to explore?</h3>
-           <p>
-                
-        </p>
-            <p class="mars">
-                <img src="assets/images/mars-3.jpg" style="position: relative; width:33%">
-                <img src="assets/images/mars-5.jpg" style="position: relative; width:33%">
-                <img src="assets/images/mountain.jpg" style="position: relative; width:33%">
-            </p>
-        </div> 
+            Asteroids introduce an exiciting but sometimes hazardous element to intergalactic travel. 
+          </p>  
       </div>
-              <!-- <b>API URL:</b>
-        <pre id="reqObject"></pre>       
+      <div>
+          <form id="date-form">
+            <p>Enter your travel date to view the asteroids you may encounter upon departure; red asteroids indicate hazards.</p>
+          <input class='centerfield' type='date' name='date' value='2019-09-21'></input>
+          <input type="submit" name="Submit">
+          </form>
+          <div id="solar-system">
+          <span><img id="earth" src="https://upload.wikimedia.org/wikipedia/commons/9/95/Earth-DSCOVR-20150706.png"></span>
+          </div>
         
-        <img id="apod_img_id" width="250px"/>
-        
-        <iframe id="apod_vid_id" type="text/html" width="640" height="385" frameborder="0"></iframe>
-        <p id="copyright"></p>
-        
-        <h3 id="apod_title"></h3>
-        <p id="apod_explaination"></p>
-        <br/>
-        <b>Return Object:</b>
-        <pre id="returnObject"></pre> -->
+        <p id="click"></p>
+        </div>
+             
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous"></script>
-        <script src="./assets/javascript/app.js"></script>
+        <script src="./assets/javascript/asteroids.js"></script>
     </body>
 </html>
